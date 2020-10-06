@@ -10,7 +10,14 @@ WIN_COMBINATIONS = [
   [0,4,8], [2,4,6]]
   
 def won?(board)
-  board.each do |win_combo|
-    if board[index] 
+  combo = 0 
+  while combo < WIN_COMBINATIONS.length
+  current_combo = WIN_COMBINATIONS[combo]
+  win1 = current_combo.all? { |position| board[position] == "X"
+  win2 = current_combo.all? { |position| board[position] == "O"
+  if win1 == true || win2 == true
+    return current_combo
+  end
+  false
     
 end
