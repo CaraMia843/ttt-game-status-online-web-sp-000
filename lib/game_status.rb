@@ -18,6 +18,8 @@ def won?(board)
   if win1 == true || win2 == true
     return current_combo
   end
-  false
-    
+  combo += 1
+  
+end
+   false 
 end
