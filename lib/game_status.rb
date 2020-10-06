@@ -39,7 +39,7 @@ def draw?(board)
   else
     return false 
   end
-en
+end
 
     
 end
