@@ -10,5 +10,6 @@ WIN_COMBINATIONS = [
   [0,4,8], [2,4,6]]
   
 def won?(board)
-  
+  WIN_COMBINATIONS.find do |win_combo|
+    win_index_1 = win_combination[0]
 end
